@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Oct 10 16:15:29 2026
+# Process ID         : 439612
+# Current directory  : D:/github/scu35/demo/scripts
+# Command line       : vivado.exe -mode batch -source .\clean_project.tcl
+# Log file           : D:/github/scu35/demo/scripts/vivado.log
+# Journal file       : D:/github/scu35/demo/scripts\vivado.jou
+# Running On         : vivobook
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16849 MB
+# Swap memory        : 15032 MB
+# Total Virtual      : 31882 MB
+# Available Virtual  : 11244 MB
+#-----------------------------------------------------------
+source {.\clean_project.tcl}
+# set script_dir [file dirname [file normalize [info script]]]
+# set project_root [file normalize [file join $script_dir ..]]
+# set project_dir [file join $project_root build]
+# if {[file exists $project_dir]} {
+# 	file delete -force $project_dir
+# }
+# foreach stale_dir [lsort -unique [list $project_root $script_dir]] {
+# 	foreach stale_file [glob -nocomplain -directory $stale_dir *.backup.log *.backup.jou *.txt] {
+# 		file delete -force $stale_file
+# 	}
+# }
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 10 16:15:33 2026...
